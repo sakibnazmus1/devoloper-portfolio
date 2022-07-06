@@ -7,12 +7,16 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
 .orange-color {
     color: orange;
 }
 
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 150px;
 }
@@ -20,6 +24,7 @@ section {
 .half-width {
     width: 50%;
     padding: 4%;
+
 }
 
 .half-width img {
@@ -35,7 +40,7 @@ section {
     border-radius: 5px;
 }
 
-#top-banner {
+.top-banner {
     background-image: url(developer-portfolio-master/images/top-banner.png);
     background-repeat: no-repeat;
 
@@ -45,9 +50,38 @@ section {
     color: brown;
 }
 
-#dream-big {
+.dream-big {
     background-image: url(developer-portfolio-master/images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
 
+}
+
+.experience-area {
+    background-image: url(developer-portfolio-master/images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+
+.shadow {
+    box-shadow: 10px 10px 40px gray;
+    padding-left: 20px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 8px;
+
+}
+
+#full-stack-devoloper {
+    border-left: 10px solid tomato;
+}
+
+#baby-web-devoloper {
+    border-left: 10px solid blue;
+}
+
+footer {
+    text-align: center;
 }
